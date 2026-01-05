@@ -1,0 +1,8 @@
+name: Hellow World
+
+on:push
+push
+  hello:
+    runs-on:ubuntu-latest
+    steps:
+      - run: echo "Hello World!"
