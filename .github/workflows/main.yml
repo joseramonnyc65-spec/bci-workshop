@@ -1,8 +1,8 @@
 name: Hellow World
 
-on:push
-push
+on: push
+jobs:
   hello:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello World!"
+       - run: echo "Hello World!"
